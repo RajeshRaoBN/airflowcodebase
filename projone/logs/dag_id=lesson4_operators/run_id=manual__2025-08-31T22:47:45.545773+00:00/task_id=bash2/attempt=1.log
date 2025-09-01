@@ -1,0 +1,16 @@
+{"timestamp":"2025-08-31T22:47:48.446320","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-31T22:47:48.447528","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/lesson4_operators.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-31T22:47:48.544506Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-31T22:47:48.544805Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-31T22:47:48.545278Z","level":"info","event":"Current task name:bash2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-31T22:47:48.545479Z","level":"info","event":"Dag name:lesson4_operators","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-31T22:47:48.549265","level":"info","event":"Tmp dir root location: /tmp","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-08-31T22:47:48.555669","level":"info","event":"Running command: ['/usr/bin/bash', '-c', \"echo 'Error: Failed to copy the file.' && exit 1\"]","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-08-31T22:47:48.578952","level":"info","event":"Output:","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-08-31T22:47:48.594459","level":"info","event":"Error: Failed to copy the file.","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-08-31T22:47:48.596297","level":"info","event":"Command exited with return code 1","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-08-31T22:47:48.598264","level":"error","event":"Task failed with exception","logger":"task","error_detail":[{"exc_type":"AirflowException","exc_value":"Bash command failed. The command returned a non-zero exit code 1.","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":890,"name":"run"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":1177,"name":"_execute_task"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/bases/operator.py","lineno":397,"name":"wrapper"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/bash.py","lineno":232,"name":"execute"}],"is_group":false,"exceptions":[]}]}
+{"timestamp":"2025-08-31T22:47:48.667876Z","level":"info","event":"Task instance in failure state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-31T22:47:48.671960Z","level":"info","event":"Task start","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-31T22:47:48.672837Z","level":"info","event":"Task:<Task(BashOperator): bash2>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-31T22:47:48.675070Z","level":"info","event":"Failure caused by Bash command failed. The command returned a non-zero exit code 1.","chan":"stdout","logger":"task"}

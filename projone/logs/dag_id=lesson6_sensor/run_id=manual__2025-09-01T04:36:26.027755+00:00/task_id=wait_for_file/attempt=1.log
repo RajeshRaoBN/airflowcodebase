@@ -1,0 +1,16 @@
+{"timestamp":"2025-09-01T04:36:28.111816","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-01T04:36:28.112476","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/lesson6_sensor.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-01T04:36:28.143775Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-01T04:36:28.144086Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-01T04:36:28.144391Z","level":"info","event":"Current task name:wait_for_file","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-01T04:36:28.144653Z","level":"info","event":"Dag name:lesson6_sensor","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-01T04:36:28.148522","level":"warning","event":"/home/airflow/.local/lib/python3.12/site-packages/airflow/models/connection.py:471: DeprecationWarning: Using Connection.get_connection_from_secrets from `airflow.models` is deprecated.Please use `from airflow.sdk import Connection` instead\n  warnings.warn(\n","logger":"py.warnings"}
+{"timestamp":"2025-09-01T04:36:28.159576","level":"info","event":"Connection Retrieved 'fs_default'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-09-01T04:36:28.159761","level":"info","event":"Poking for file /opt/airflow/dags/data/ready.txt","logger":"airflow.task.operators.airflow.providers.standard.sensors.filesystem.FileSensor"}
+{"timestamp":"2025-09-01T04:36:28.162019","level":"info","event":"Found File /opt/airflow/dags/data/ready.txt last modified: 20250901015749","logger":"airflow.task.operators.airflow.providers.standard.sensors.filesystem.FileSensor"}
+{"timestamp":"2025-09-01T04:36:28.162145","level":"info","event":"Success criteria met. Exiting.","logger":"airflow.task.operators.airflow.providers.standard.sensors.filesystem.FileSensor"}
+{"timestamp":"2025-09-01T04:36:28.162229","level":"info","event":"Poking for file /opt/airflow/dags/data/ready.txt","logger":"airflow.task.operators.airflow.providers.standard.sensors.filesystem.FileSensor"}
+{"timestamp":"2025-09-01T04:36:28.162338","level":"info","event":"Found File /opt/airflow/dags/data/ready.txt last modified: 20250901015749","logger":"airflow.task.operators.airflow.providers.standard.sensors.filesystem.FileSensor"}
+{"timestamp":"2025-09-01T04:36:28.178281Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-01T04:36:28.178676Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-01T04:36:28.179058Z","level":"info","event":"Task operator:<Task(FileSensor): wait_for_file>","chan":"stdout","logger":"task"}

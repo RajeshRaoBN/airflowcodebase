@@ -1,0 +1,15 @@
+{"timestamp":"2025-08-27T22:38:28.134010","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-27T22:38:28.134760","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/lesson1_hello_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-27T22:38:28.381246Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-27T22:38:28.381571Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-27T22:38:28.381870Z","level":"info","event":"Current task name:say_hello","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-27T22:38:28.382122Z","level":"info","event":"Dag name:lesson1_hello_dag","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-27T22:38:28.382095","level":"info","event":"Tmp dir root location: /tmp","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-08-27T22:38:28.383224","level":"info","event":"Running command: ['/usr/bin/bash', '-c', \"echo 'Hello, Airflow from Docker!'\"]","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-08-27T22:38:28.394508","level":"info","event":"Output:","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-08-27T22:38:28.396392","level":"info","event":"Hello, Airflow from Docker!","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-08-27T22:38:28.396762","level":"info","event":"Command exited with return code 0","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-08-27T22:38:28.397337","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('0198edae-b1a0-76f2-856b-0cbfb620baa0'), task_id='say_hello', dag_id='lesson1_hello_dag', run_id='manual__2025-08-27T22:38:25.670442+00:00', try_number=1, map_index=-1, hostname='b27e74638fed', context_carrier={}, task=<Task(BashOperator): say_hello>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=0, start_date=datetime.datetime(2025, 8, 27, 22, 38, 26, 733940, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None, log_url='http://localhost:8080/dags/lesson1_hello_dag/runs/manual__2025-08-27T22%3A38%3A25.670442%2B00%3A00/tasks/say_hello?try_number=1')","logger":"task"}
+{"timestamp":"2025-08-27T22:38:28.433420Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-27T22:38:28.433825Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-27T22:38:28.434162Z","level":"info","event":"Task operator:<Task(BashOperator): say_hello>","chan":"stdout","logger":"task"}

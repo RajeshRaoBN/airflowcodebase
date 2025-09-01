@@ -1,0 +1,9 @@
+{"timestamp":"2025-09-01T22:57:00.091788","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-01T22:57:00.092319","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/external_sensor_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-01T22:57:00.169376Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-01T22:57:00.169836Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-01T22:57:00.170103Z","level":"info","event":"Current task name:wait_for_other_dag","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-01T22:57:00.170356Z","level":"info","event":"Dag name:external_sensor_dag","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-01T22:57:00.169541","level":"info","event":"Poking for tasks ['say_hello'] in dag hello1_dag on 2025-09-01T22:56:53.909000+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2025-09-01T22:58:00.184350","level":"info","event":"Poking for tasks ['say_hello'] in dag hello1_dag on 2025-09-01T22:56:53.909000+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2025-09-01T22:59:00.196492","level":"info","event":"Poking for tasks ['say_hello'] in dag hello1_dag on 2025-09-01T22:56:53.909000+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}

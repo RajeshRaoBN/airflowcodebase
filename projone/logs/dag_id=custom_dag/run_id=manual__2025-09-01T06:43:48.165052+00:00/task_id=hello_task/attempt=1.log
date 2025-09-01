@@ -1,0 +1,10 @@
+{"timestamp":"2025-09-01T06:43:49.349787","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-01T06:43:49.350331","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/custom_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-01T06:43:49.361287Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-01T06:43:49.361632Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-01T06:43:49.361880Z","level":"info","event":"Current task name:hello_task","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-01T06:43:49.362146Z","level":"info","event":"Dag name:custom_dag","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-01T06:43:49.362380Z","level":"info","event":"Hello World ProjOne!","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-01T06:43:49.378996Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-01T06:43:49.379316Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-01T06:43:49.379684Z","level":"info","event":"Task operator:<Task(HelloOperator): hello_task>","chan":"stdout","logger":"task"}
