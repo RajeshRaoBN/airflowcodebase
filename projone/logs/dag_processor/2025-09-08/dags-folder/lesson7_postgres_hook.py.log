@@ -753,3 +753,4 @@
 {"timestamp":"2025-09-08T06:42:08.847333","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/lesson7_postgres_hook.py","logger":"airflow.models.dagbag.DagBag"}
 {"timestamp":"2025-09-08T06:42:39.612637","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/lesson7_postgres_hook.py","logger":"airflow.models.dagbag.DagBag"}
 {"timestamp":"2025-09-08T06:43:11.043466","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/lesson7_postgres_hook.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-08T06:43:41.306146","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/lesson7_postgres_hook.py","logger":"airflow.models.dagbag.DagBag"}

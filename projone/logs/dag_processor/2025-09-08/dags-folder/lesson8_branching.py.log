@@ -753,3 +753,4 @@
 {"timestamp":"2025-09-08T06:42:08.733446","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/lesson8_branching.py","logger":"airflow.models.dagbag.DagBag"}
 {"timestamp":"2025-09-08T06:42:39.532735","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/lesson8_branching.py","logger":"airflow.models.dagbag.DagBag"}
 {"timestamp":"2025-09-08T06:43:10.971007","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/lesson8_branching.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-08T06:43:41.225736","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/lesson8_branching.py","logger":"airflow.models.dagbag.DagBag"}

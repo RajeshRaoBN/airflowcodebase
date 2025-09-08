@@ -753,3 +753,4 @@
 {"timestamp":"2025-09-08T06:42:08.604669","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/variables_dag.py","logger":"airflow.models.dagbag.DagBag"}
 {"timestamp":"2025-09-08T06:42:39.392253","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/variables_dag.py","logger":"airflow.models.dagbag.DagBag"}
 {"timestamp":"2025-09-08T06:43:10.789649","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/variables_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-08T06:43:41.067411","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/variables_dag.py","logger":"airflow.models.dagbag.DagBag"}
